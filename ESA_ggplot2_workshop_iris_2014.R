@@ -9,14 +9,14 @@
 
 # must be a data.frame
 data(iris)
-head(iris)
+head(iris, 10)
 library(plyr)
 library(reshape2)
 df<-melt(iris, id.vars="Species") #go from wide to long
-head(df)
+head(df, 10)
 tail(df)
 df2<-melt(iris, id.vars="Species", "Sepal.Length") #go from wide to long
-head(df2)
+head(df2, 10)
 dcast(df2, Species ~variable, mean) # averages for all variables
 
 library(ggplot2)
