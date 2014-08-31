@@ -1,3 +1,3 @@
-github-code-demo
+seh-github-code-demo
 ================
-I'm trying out github for the first time - this code works but is probably not so interesting
+learning how github works with some ggplot2 R code
